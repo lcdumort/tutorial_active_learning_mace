@@ -1,0 +1,20 @@
+name: mace-al
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  # replace with 'pytorch-cuda=12.1' for gpu acceleration
+  - ase >=3.22.1
+  - e3nn >=0.5.1
+  - h5py
+  - matplotlib
+  - pandas
+  - jupyterlab
+  - ipywidgets
+  - pip:
+    - mace-torch
