@@ -20,8 +20,8 @@ I have provided an environment.yml configuration file that contains all necessar
 
 ### Step 1. Clone this repository
 ```bash
-git clone <your-repository-url>
-cd <repository-folder-name>
+git clone git@github.com:lcdumort/tutorial_active_learning_mace.git
+cd tutorial_active_learning_mace
 ```
 
 ### Step 2. Create the Environment from the Configuration
